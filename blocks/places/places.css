@@ -1,5 +1,11 @@
 .places {
-    margin: 12px 0 0;
-    padding-right: 48px;
-    padding-left: 48px;
+    max-width: calc(100% - 96px);
+    margin: 12px auto 0;
+}
+
+@media (max-width: 320px) {
+    .places {
+        margin: 14px auto 0;
+        max-width: 100%;
+    }
 }

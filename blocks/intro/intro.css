@@ -1,7 +1,16 @@
 .intro {
-    margin: 92px 0 0;
-    max-width: 690px;
-    padding-right: 48px;
-    padding-left: 48px;
+    margin: 92px auto 0;
+    max-width: calc(100% - 96px);
+}
+@media (max-width: 768px) {
+    .intro {
+        max-width: calc(100% - 48px);
+    }
+}
 
+@media (max-width: 320px) {
+    .intro {
+        max-width: calc(100% - 32px);
+        margin-top: 64px;
+    }
 }

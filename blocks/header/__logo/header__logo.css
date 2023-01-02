@@ -1,7 +1,12 @@
 .header__logo {
-    size: 176px 52px;
-
+    max-width: 176px;
     align-self: start;
     justify-self: start;
+    margin: auto;
+}
 
+@media (max-width: 320px) {
+    .header__logo {
+        max-width: 142px;
+    }
 }
