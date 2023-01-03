@@ -11,3 +11,5 @@
 ---------------------------
 Проект можно посмотреть на Github Pages: 
 
+https://ratznikita.github.io/russian-travel/
+
