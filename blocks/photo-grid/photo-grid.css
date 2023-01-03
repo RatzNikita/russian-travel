@@ -19,7 +19,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     .photo-grid {
         grid-template-columns: 1fr;
         max-width: calc(100% - 32px);

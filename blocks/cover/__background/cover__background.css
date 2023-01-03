@@ -1,0 +1,36 @@
+.cover__background {
+    position: relative;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-image: url("../../../images/cover-trains.jpg");
+    background-size: cover;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    height: 740px;
+    grid-column: 1/1;
+    grid-row: 1/1;
+    opacity: 0.8;
+}
+
+
+@media (max-width: 1024px) {
+    .cover__background {
+        height: 640px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__background {
+        height: 480px;
+    }
+}
+
+@media (max-width: 425px) {
+    .cover__background {
+        height: 200px;
+    }
+}

@@ -1,29 +1,29 @@
 .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    grid-template-columns: 1fr;
     grid-template-areas:
-    "title website"
-    "image paragraph";
-    gap: 48px 32px;
-    margin-top: 80px
+    "title"
+    "website"
+    "image"
+    "paragraph";
+    gap: 32px 0;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 425px) {
     .place {
         margin-top: 70px;
         column-gap: 28px;
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 768px) {
     .place {
-        margin-top: 50px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas:
-    "title"
-    "website"
-    "image"
-    "paragraph";
-        gap: 32px 0;
+    "title website"
+    "image paragraph";
+        gap: 48px 32px;
+        margin-top: 80px
     }
 }

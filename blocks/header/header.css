@@ -1,6 +1,6 @@
 .header {
     min-width: 320px;
-    max-width: 100%;
+    max-width: 1280px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -16,7 +16,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     .header {
         padding-top: 16px;
         padding-left: 16px;
