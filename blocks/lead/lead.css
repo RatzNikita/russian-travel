@@ -1,11 +1,16 @@
 .lead {
     display: grid;
     margin: 0 auto;
-    max-width: calc(100% - 48px);
-
+    max-width: calc(100% - 96px);
 }
 
-@media (max-width: 320px) {
+@media (min-width: 1280px) {
+    .lead {
+        max-width: calc(100% - 296px);
+    }
+}
+
+@media (max-width: 768px) {
     .lead {
         max-width: 100%;
     }

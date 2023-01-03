@@ -5,7 +5,15 @@
     font-size: 24px;
     font-weight: 400;
     margin-top:18px;
+    opacity: 0.8;
+    transition: opacity .3s ease-in-out;
 }
+
+.header__lang-link:hover {
+    opacity: 0.3;
+    transition: opacity .3s ease-in-out;
+}
+
 @media (max-width: 768px) {
     .header__lang-link {
         font-size: 24px;

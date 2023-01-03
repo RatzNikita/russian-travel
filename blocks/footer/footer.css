@@ -1,12 +1,17 @@
 .footer {
-    padding: 90px 48px 24px;
+    max-width: calc(100% - 96px);
+    padding-top: 90px;
+    padding-bottom: 24px;
     display: grid;
     grid-template-columns: repeat(2,max-content);
     justify-content: space-between;
+    margin: auto;
 }
 
 @media (max-width: 320px) {
     .footer {
+        padding-top: 64px;
+        max-width: calc(100% - 32px);
         grid-template-columns: max-content;
         grid-template-rows: repeat(2,max-content);
         gap: 48px;

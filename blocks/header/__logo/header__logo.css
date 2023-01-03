@@ -1,8 +1,5 @@
 .header__logo {
     max-width: 176px;
-    align-self: start;
-    justify-self: start;
-    margin: auto;
 }
 
 @media (max-width: 320px) {
