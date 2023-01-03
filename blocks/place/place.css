@@ -6,7 +6,7 @@
     "title"
     "website"
     "image"
-    "paragraph";
+    "text";
     gap: 32px 0;
 }
 
@@ -22,7 +22,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
     "title website"
-    "image paragraph";
+    "image text";
         gap: 48px 32px;
         margin-top: 80px
     }
