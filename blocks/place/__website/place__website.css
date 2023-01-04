@@ -1,6 +1,7 @@
 .place__website {
     grid-area: website;
     align-self: end;
+    margin: 0;
 }
 
 @media (max-width: 425px) {

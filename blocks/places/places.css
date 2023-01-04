@@ -1,6 +1,7 @@
 .places {
     max-width: calc(100% - 96px);
     margin: 12px auto 0;
+    box-sizing: content-box;
 }
 
 @media (min-width: 1280px) {
