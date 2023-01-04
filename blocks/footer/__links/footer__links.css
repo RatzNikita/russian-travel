@@ -3,13 +3,14 @@
     display: grid;
     grid-template-columns: max-content;
     grid-template-rows: repeat(5,max-content);
-    gap: 18px;
+    gap: 32px 0;
 }
 
 @media (min-width: 768px) {
     .footer__links {
         grid-template-rows: max-content;
         grid-template-columns: repeat(5, max-content);
+        gap: 0 18px;
     }
 }
 
