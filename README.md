@@ -1,15 +1,14 @@
-#  Путешествие по России
-Учебный проект по адаптивной вёрстке
+#  Traveling in Russia
+Educational project on adaptive layout
 ---------
-#### Проект представляет собой ознакомительное пособие для тех кто хочет попутешествовать по родине.
+#### The project is an introductory guide for those who want to travel around their homeland.
 
-В проекте используются:
-* медиазапросы
-* грид-сетки
-* организованная по БЭМ файловая структура
+The project uses:
+* media queries
+* grids
+* BEM organized file structure
 
 ---------------------------
-Проект можно посмотреть на Github Pages: 
+The project can be viewed on Github Pages:
 
 https://ratznikita.github.io/russian-travel/
-
